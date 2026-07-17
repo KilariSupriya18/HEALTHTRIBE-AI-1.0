@@ -1,0 +1,880 @@
+{
+  "patientProfiles": [
+    {
+      "id": "patient-1784267502928",
+      "name": "Rohit Andhavarapu",
+      "relation": "Self",
+      "age": 18,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "allergies": "None",
+      "chronicConditions": "None",
+      "medications": "None",
+      "height": "170 cm",
+      "weight": "53 kg",
+      "phone": "7780110220",
+      "email": "rohitandhavarapu@gmail.com",
+      "onboardingComplete": true
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1784267502929-ekva",
+      "action": "Create Patient Profile",
+      "timestamp": "2026-07-17T05:51:42.929Z",
+      "user": "Rohit Andhavarapu",
+      "ip": "10.0.0.8",
+      "details": "Created new patient profile for Rohit Andhavarapu"
+    },
+    {
+      "id": "log-1784265673301-pji9",
+      "action": "Create Patient Profile",
+      "timestamp": "2026-07-17T05:21:13.301Z",
+      "user": "Rohit Andhavarapu",
+      "ip": "10.0.0.8",
+      "details": "Created primary patient profile for Rohit Andhavarapu"
+    },
+    {
+      "id": "log-init-1784265623972",
+      "action": "Profile Created",
+      "timestamp": "2026-07-17T05:20:23.972Z",
+      "user": "rohitandhavarapu@gmail.com",
+      "ip": "127.0.0.1",
+      "details": "HealthTribe persistent profile initialized for rohitandhavarapu@gmail.com."
+    }
+  ],
+  "aiConversations": [],
+  "doctors": [
+    {
+      "id": "D000",
+      "name": "Dr. Rahul Atluri",
+      "specialty": "Cardiology",
+      "specialtyId": "cardiologist",
+      "experience": 14,
+      "rating": 4.9,
+      "reviewsCount": 312,
+      "hospital": "AIMS Super Speciality Hospital",
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "fee": 800,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Rahul Atluri is a senior cardiologist specializing in interventional cardiology and preventive heart health. With over 14 years of experience, he is dedicated to guiding patients through complex cardiovascular journeys.",
+      "education": "MD - Cardiology (AIIMS), MBBS (JIPMER)",
+      "availabilitySlots": [
+        "09:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "03:00 PM",
+        "04:30 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "id": "D001",
+      "name": "Dr. Rajesh Varma",
+      "specialty": "Orthopedics",
+      "specialtyId": "orthopedic",
+      "experience": 12,
+      "rating": 4.8,
+      "reviewsCount": 245,
+      "hospital": "Fortis Hospital",
+      "languages": [
+        "English",
+        "Hindi",
+        "Punjabi"
+      ],
+      "fee": 800,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Rajesh Varma is an expert in orthopedic surgery, knee pain assessments, and musculoskeletal rehabilitation.",
+      "education": "MS - Orthopedics, MBBS",
+      "availabilitySlots": [
+        "10:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "04:30 PM"
+      ]
+    },
+    {
+      "id": "D002",
+      "name": "Dr. Rohan Mehta",
+      "specialty": "Neurology",
+      "specialtyId": "neurologist",
+      "experience": 10,
+      "rating": 4.7,
+      "reviewsCount": 180,
+      "hospital": "NeuroCare Institute",
+      "languages": [
+        "English",
+        "Gujarati",
+        "Hindi"
+      ],
+      "fee": 900,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Rohan Mehta specializes in managing chronic migraines, stroke rehabilitation, and spinal nerve care.",
+      "education": "DM - Neurology (NIMHANS), MD",
+      "availabilitySlots": [
+        "09:30 AM",
+        "11:30 AM",
+        "03:30 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "D003",
+      "name": "Dr. Priya Nair",
+      "specialty": "Pediatrics",
+      "specialtyId": "pediatrician",
+      "experience": 8,
+      "rating": 4.6,
+      "reviewsCount": 195,
+      "hospital": "ChildCare Hospital",
+      "languages": [
+        "English",
+        "Malayalam",
+        "Tamil"
+      ],
+      "fee": 700,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Priya Nair is renowned for clinical pediatrics, routine vaccinations, and developmental milestones guidance.",
+      "education": "MD - Pediatrics, MBBS",
+      "availabilitySlots": [
+        "10:30 AM",
+        "12:00 PM",
+        "04:00 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "id": "D004",
+      "name": "Dr. Vikram Shah",
+      "specialty": "Orthopedics",
+      "specialtyId": "orthopedic",
+      "experience": 15,
+      "rating": 4.9,
+      "reviewsCount": 320,
+      "hospital": "OrthoMax Hospital",
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "fee": 900,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1607990283143-e81e7a2c93ab?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Vikram Shah is a leading orthopedic surgeon focusing on joint replacements, sports injuries, and musculoskeletal repair.",
+      "education": "MS - Orthopedics (KEM Mumbai), MBBS",
+      "availabilitySlots": [
+        "09:00 AM",
+        "11:00 AM",
+        "02:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "D005",
+      "name": "Dr. Meera Iyer",
+      "specialty": "Endocrinology",
+      "specialtyId": "endocrinology",
+      "experience": 9,
+      "rating": 4.7,
+      "reviewsCount": 150,
+      "hospital": "Apollo Clinic",
+      "languages": [
+        "English",
+        "Tamil",
+        "Telugu"
+      ],
+      "fee": 600,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Meera Iyer offers comprehensive endocrinology and diabetic therapies, helping patients achieve metabolic balance.",
+      "education": "DM - Endocrinology, MD",
+      "availabilitySlots": [
+        "09:00 AM",
+        "10:30 AM",
+        "12:30 PM",
+        "03:30 PM"
+      ]
+    },
+    {
+      "id": "D006",
+      "name": "Dr. Amit Das",
+      "specialty": "General Physician",
+      "specialtyId": "gen_physician",
+      "experience": 7,
+      "rating": 4.5,
+      "reviewsCount": 410,
+      "hospital": "HealthFirst Clinic",
+      "languages": [
+        "English",
+        "Bengali",
+        "Hindi"
+      ],
+      "fee": 500,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Amit Das provides general health checks, blood pressure reviews, diabetic consults, and primary triage.",
+      "education": "MD - General Medicine (Calcutta Medical), MBBS",
+      "availabilitySlots": [
+        "08:30 AM",
+        "10:30 AM",
+        "02:30 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "D007",
+      "name": "Dr. Neha Kapoor",
+      "specialty": "ENT",
+      "specialtyId": "ent",
+      "experience": 11,
+      "rating": 4.6,
+      "reviewsCount": 135,
+      "hospital": "ENT Care Center",
+      "languages": [
+        "English",
+        "Hindi",
+        "Odia"
+      ],
+      "fee": 650,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Neha Kapoor is dedicated to treatment of ear, nose, and throat disorders with advanced diagnostics.",
+      "education": "MS - ENT (AIIMS), MBBS",
+      "availabilitySlots": [
+        "10:00 AM",
+        "11:00 AM",
+        "03:00 PM",
+        "04:30 PM"
+      ]
+    },
+    {
+      "id": "D008",
+      "name": "Dr. Arjun Patel",
+      "specialty": "Gastroenterology",
+      "specialtyId": "gastroenterologist",
+      "experience": 13,
+      "rating": 4.8,
+      "reviewsCount": 220,
+      "hospital": "DigestWell Hospital",
+      "languages": [
+        "English",
+        "Gujarati",
+        "Hindi"
+      ],
+      "fee": 850,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Arjun Patel is a specialist in digestive systems, endoscopy, and hepatic/liver wellness.",
+      "education": "DM - Gastroenterology (SGPGI), MD",
+      "availabilitySlots": [
+        "09:30 AM",
+        "11:30 AM",
+        "03:30 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "id": "D009",
+      "name": "Dr. Kavita Reddy",
+      "specialty": "Pulmonology",
+      "specialtyId": "pulmonology",
+      "experience": 14,
+      "rating": 4.8,
+      "reviewsCount": 165,
+      "hospital": "BreathEasy Lung Clinic",
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "fee": 800,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Kavita Reddy is a highly-regarded pulmonologist dedicated to respiratory care, asthma therapies, and advanced lung wellness programs.",
+      "education": "MD - Pulmonology, MBBS",
+      "availabilitySlots": [
+        "09:00 AM",
+        "11:00 AM",
+        "03:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "D010",
+      "name": "Dr. Alok Sharma",
+      "specialty": "Endocrinology",
+      "specialtyId": "endocrinology",
+      "experience": 11,
+      "rating": 4.6,
+      "reviewsCount": 112,
+      "hospital": "Metabolism Care Center",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "fee": 750,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Alok Sharma is a dedicated endocrinologist specializing in diabetes care, metabolic therapies, and hormonal balance treatments.",
+      "education": "DM - Endocrinology, MD",
+      "availabilitySlots": [
+        "10:00 AM",
+        "12:00 PM",
+        "04:00 PM"
+      ]
+    },
+    {
+      "id": "D011",
+      "name": "Dr. Vivek Sharma",
+      "specialty": "Pulmonology",
+      "specialtyId": "pulmonology",
+      "experience": 9,
+      "rating": 4.7,
+      "reviewsCount": 140,
+      "hospital": "Manipal Hospital",
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada"
+      ],
+      "fee": 600,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Vivek Sharma provides comprehensive lung care and respiratory consultation services.",
+      "education": "MD - Pulmonology, MBBS",
+      "availabilitySlots": [
+        "09:30 AM",
+        "11:30 AM",
+        "02:30 PM",
+        "04:30 PM"
+      ]
+    },
+    {
+      "id": "D012",
+      "name": "Dr. Rajesh Khanna",
+      "specialty": "Psychiatry",
+      "specialtyId": "psychiatry",
+      "experience": 16,
+      "rating": 4.9,
+      "reviewsCount": 205,
+      "hospital": "MindSpace Wellness",
+      "languages": [
+        "English",
+        "Hindi",
+        "Punjabi"
+      ],
+      "fee": 1000,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Rajesh Khanna is a compassionate psychiatrist focused on mental health, anxiety solutions, and supportive cognitive therapies.",
+      "education": "MD - Psychiatry, DPM",
+      "availabilitySlots": [
+        "10:30 AM",
+        "01:00 PM",
+        "03:30 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "id": "D013",
+      "name": "Dr. Sunita Rao",
+      "specialty": "Gynecology",
+      "specialtyId": "gynecology",
+      "experience": 18,
+      "rating": 4.9,
+      "reviewsCount": 280,
+      "hospital": "Matrika Women's Hospital",
+      "languages": [
+        "English",
+        "Telugu",
+        "Kannada"
+      ],
+      "fee": 950,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Sunita Rao provides comprehensive maternal-fetal care, reproductive health guidance, and wellness programs for women.",
+      "education": "MD - Gynecology, DGO",
+      "availabilitySlots": [
+        "09:00 AM",
+        "11:30 AM",
+        "03:00 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "id": "D014",
+      "name": "Dr. Vijay Kumar",
+      "specialty": "Urology",
+      "specialtyId": "urology",
+      "experience": 12,
+      "rating": 4.5,
+      "reviewsCount": 98,
+      "hospital": "UroHealth Institute",
+      "languages": [
+        "English",
+        "Hindi",
+        "Tamil"
+      ],
+      "fee": 700,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Vijay Kumar is an experienced urologist offering clinical consultations, prostate screenings, and urinary tract treatments.",
+      "education": "MCh - Urology, MS",
+      "availabilitySlots": [
+        "11:00 AM",
+        "01:00 PM",
+        "04:00 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "id": "D015",
+      "name": "Dr. Emily Fernandes",
+      "specialty": "Oncology",
+      "specialtyId": "oncology",
+      "experience": 15,
+      "rating": 4.8,
+      "reviewsCount": 190,
+      "hospital": "Hope Cancer Pavilion",
+      "languages": [
+        "English",
+        "Konkani",
+        "Hindi"
+      ],
+      "fee": 1200,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Emily Fernandes is a dedicated medical oncologist guiding families through custom-targeted cancer care and therapy paths.",
+      "education": "DM - Medical Oncology, MD",
+      "availabilitySlots": [
+        "10:00 AM",
+        "12:30 PM",
+        "03:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "D016",
+      "name": "Dr. Sandeep Mahto",
+      "specialty": "Nephrology",
+      "specialtyId": "nephrology",
+      "experience": 10,
+      "rating": 4.6,
+      "reviewsCount": 115,
+      "hospital": "Kidney Care Labs",
+      "languages": [
+        "English",
+        "Hindi",
+        "Maithili"
+      ],
+      "fee": 800,
+      "availableToday": true,
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=200",
+      "bio": "Dr. Sandeep Mahto is an expert nephrologist specializing in hypertension, chronic kidney disease, and dialysis therapies.",
+      "education": "DM - Nephrology, MD",
+      "availabilitySlots": [
+        "09:00 AM",
+        "10:30 AM",
+        "02:30 PM",
+        "04:30 PM"
+      ]
+    }
+  ],
+  "primaryProfile": {
+    "id": "fam-self",
+    "name": "Rohit Andhavarapu",
+    "relation": "Self",
+    "age": 18,
+    "gender": "Male",
+    "bloodGroup": "B+",
+    "allergies": "None",
+    "chronicConditions": "None",
+    "medications": "None",
+    "height": "165 cm",
+    "weight": "55 kg",
+    "phone": "7780110220",
+    "email": "rohitandhavarapu@gmail.com",
+    "onboardingComplete": true
+  },
+  "partitions": {
+    "fam-self": {
+      "familyMembers": [
+        {
+          "id": "fam-1",
+          "name": "Srinivas Kilari",
+          "relation": "Husband",
+          "age": 34,
+          "gender": "Male",
+          "bloodGroup": "B+",
+          "allergies": "None",
+          "chronicConditions": "None",
+          "medications": "None",
+          "height": "178 cm",
+          "weight": "74 kg",
+          "emergencyContact": "+91 98402 12345",
+          "profileCode": "TRIBE-1102",
+          "linked": true,
+          "linkedStatus": "Linked",
+          "belongsTo": "fam-self"
+        },
+        {
+          "id": "fam-2",
+          "name": "Rama Rao Kilari",
+          "relation": "Father-in-law",
+          "age": 62,
+          "gender": "Male",
+          "bloodGroup": "A+",
+          "allergies": "None",
+          "chronicConditions": "COPD",
+          "medications": "Inhaler",
+          "height": "170 cm",
+          "weight": "70 kg",
+          "emergencyContact": "+91 98402 12345",
+          "profileCode": "TRIBE-1202",
+          "linked": true,
+          "linkedStatus": "Linked",
+          "belongsTo": "fam-self"
+        },
+        {
+          "id": "fam-3",
+          "name": "Janaki Kilari",
+          "relation": "Mother-in-law",
+          "age": 58,
+          "gender": "Female",
+          "bloodGroup": "O+",
+          "allergies": "None",
+          "chronicConditions": "Type 2 Diabetes",
+          "medications": "Metformin 500mg",
+          "height": "158 cm",
+          "weight": "62 kg",
+          "emergencyContact": "+91 98402 12345",
+          "profileCode": "TRIBE-1302",
+          "linked": true,
+          "linkedStatus": "Linked",
+          "belongsTo": "fam-self"
+        },
+        {
+          "id": "fam-4",
+          "name": "Ananya Kilari",
+          "relation": "Daughter",
+          "age": 5,
+          "gender": "Female",
+          "bloodGroup": "O+",
+          "allergies": "None",
+          "chronicConditions": "None",
+          "medications": "None",
+          "height": "110 cm",
+          "weight": "18 kg",
+          "emergencyContact": "+91 98402 12345",
+          "profileCode": "TRIBE-1402",
+          "linked": true,
+          "linkedStatus": "Linked",
+          "belongsTo": "fam-self"
+        }
+      ],
+      "appointments": [
+        {
+          "id": "appt-upcoming-1",
+          "doctorId": "D000",
+          "doctorName": "Dr. Rahul Atluri",
+          "specialty": "Cardiology",
+          "patientId": "fam-self",
+          "patientName": "Supriya Kilari",
+          "date": "17 Jul 2026",
+          "time": "10:30 AM",
+          "status": "Upcoming",
+          "type": "In-Person",
+          "hospital": "AIMS Super Speciality Hospital",
+          "fee": 800,
+          "notes": "Chest Pain Follow-up"
+        },
+        {
+          "id": "appt-upcoming-2",
+          "doctorId": "D001",
+          "doctorName": "Dr. Rajesh Varma",
+          "specialty": "Orthopedics",
+          "patientId": "fam-1",
+          "patientName": "Srinivas Kilari",
+          "date": "20 Jul 2026",
+          "time": "11:00 AM",
+          "status": "Upcoming",
+          "type": "In-Person",
+          "hospital": "Fortis Hospital",
+          "fee": 800,
+          "notes": "Knee Pain Review"
+        },
+        {
+          "id": "appt-upcoming-3",
+          "doctorId": "D005",
+          "doctorName": "Dr. Meera Iyer",
+          "specialty": "Endocrinology",
+          "patientId": "fam-3",
+          "patientName": "Janaki Kilari",
+          "date": "24 Jul 2026",
+          "time": "09:30 AM",
+          "status": "Upcoming",
+          "type": "In-Person",
+          "hospital": "Apollo Clinic",
+          "fee": 600,
+          "notes": "Diabetes Follow-up"
+        },
+        {
+          "id": "appt-upcoming-4",
+          "doctorId": "D011",
+          "doctorName": "Dr. Vivek Sharma",
+          "specialty": "Pulmonology",
+          "patientId": "fam-2",
+          "patientName": "Rama Rao Kilari",
+          "date": "26 Jul 2026",
+          "time": "02:00 PM",
+          "status": "Upcoming",
+          "type": "Video",
+          "hospital": "Manipal Hospital",
+          "fee": 700,
+          "notes": "COPD Review"
+        },
+        {
+          "id": "appt-upcoming-5",
+          "doctorId": "D003",
+          "doctorName": "Dr. Priya Nair",
+          "specialty": "Pediatrics",
+          "patientId": "fam-4",
+          "patientName": "Ananya Kilari",
+          "date": "28 Jul 2026",
+          "time": "10:00 AM",
+          "status": "Upcoming",
+          "type": "In-Person",
+          "hospital": "ChildCare Hospital",
+          "fee": 700,
+          "notes": "Vaccination"
+        },
+        {
+          "id": "appt-completed-1",
+          "doctorId": "D000",
+          "doctorName": "Dr. Rahul Atluri",
+          "specialty": "Cardiology",
+          "patientId": "fam-self",
+          "patientName": "Supriya Kilari",
+          "date": "12 Jul 2026",
+          "time": "11:00 AM",
+          "status": "Completed",
+          "type": "In-Person",
+          "hospital": "AIMS Super Speciality Hospital",
+          "fee": 800,
+          "notes": "Routine Cardiac Check",
+          "diagnosis": "ECG and lipid review completed, cardiac profile normal.",
+          "followUp": "Continue low sodium diet and lifestyle monitoring."
+        },
+        {
+          "id": "appt-completed-2",
+          "doctorId": "D001",
+          "doctorName": "Dr. Rajesh Varma",
+          "specialty": "Orthopedics",
+          "patientId": "fam-1",
+          "patientName": "Srinivas Kilari",
+          "date": "10 Jul 2026",
+          "time": "03:30 PM",
+          "status": "Completed",
+          "type": "In-Person",
+          "hospital": "Fortis Hospital",
+          "fee": 800,
+          "notes": "Knee Assessment",
+          "diagnosis": "Mild patellar strain diagnosed.",
+          "followUp": "Rest, ice application, and avoid heavy lifting for 1 week."
+        },
+        {
+          "id": "appt-completed-3",
+          "doctorId": "D005",
+          "doctorName": "Dr. Meera Iyer",
+          "specialty": "Endocrinology",
+          "patientId": "fam-3",
+          "patientName": "Janaki Kilari",
+          "date": "08 Jul 2026",
+          "time": "09:00 AM",
+          "status": "Completed",
+          "type": "In-Person",
+          "hospital": "Apollo Clinic",
+          "fee": 600,
+          "notes": "Fasting Blood Sugar Review",
+          "diagnosis": "Type 2 Diabetes, blood sugar stable.",
+          "followUp": "Continue Metformin 500mg twice daily with meals."
+        },
+        {
+          "id": "appt-completed-4",
+          "doctorId": "D011",
+          "doctorName": "Dr. Vivek Sharma",
+          "specialty": "Pulmonology",
+          "patientId": "fam-2",
+          "patientName": "Rama Rao Kilari",
+          "date": "05 Jul 2026",
+          "time": "04:00 PM",
+          "status": "Completed",
+          "type": "Video",
+          "hospital": "Manipal Hospital",
+          "fee": 700,
+          "notes": "COPD Spirometry Review",
+          "diagnosis": "Stable COPD, normal FEV1/FVC ratio.",
+          "followUp": "Continue daily bronchodilator inhalers, monitor oxygen level."
+        },
+        {
+          "id": "appt-completed-5",
+          "doctorId": "D003",
+          "doctorName": "Dr. Priya Nair",
+          "specialty": "Pediatrics",
+          "patientId": "fam-4",
+          "patientName": "Ananya Kilari",
+          "date": "01 Jul 2026",
+          "time": "10:30 AM",
+          "status": "Completed",
+          "type": "In-Person",
+          "hospital": "ChildCare Hospital",
+          "fee": 700,
+          "notes": "Regular Growth Monitoring",
+          "diagnosis": "Normal developmental milestones achieved.",
+          "followUp": "Maintain age-appropriate balanced nutrition and active play."
+        },
+        {
+          "id": "appt-cancelled-1",
+          "doctorId": "D000",
+          "doctorName": "Dr. Rahul Atluri",
+          "specialty": "Cardiology",
+          "patientId": "fam-self",
+          "patientName": "Supriya Kilari",
+          "date": "02 Jul 2026",
+          "time": "10:30 AM",
+          "status": "Cancelled",
+          "type": "In-Person",
+          "hospital": "AIMS Super Speciality Hospital",
+          "fee": 800,
+          "notes": "Rescheduling needed"
+        },
+        {
+          "id": "appt-cancelled-2",
+          "doctorId": "D001",
+          "doctorName": "Dr. Rajesh Varma",
+          "specialty": "Orthopedics",
+          "patientId": "fam-1",
+          "patientName": "Srinivas Kilari",
+          "date": "28 Jun 2026",
+          "time": "02:00 PM",
+          "status": "Cancelled",
+          "type": "In-Person",
+          "hospital": "Fortis Hospital",
+          "fee": 800,
+          "notes": "Doctor unavailable"
+        }
+      ],
+      "medicalTimeline": [
+        {
+          "id": "timeline-1",
+          "date": "2026-06-15",
+          "title": "Annual Heart Health Checkup",
+          "patientId": "fam-self",
+          "patientName": "Supriya Kilari",
+          "category": "Consultation",
+          "doctorName": "Dr. Rahul Atluri",
+          "details": "Sinus rhythm normal, blood pressure stable at 118/75.",
+          "attachments": [
+            "ECG_Report_June.pdf"
+          ]
+        },
+        {
+          "id": "timeline-2",
+          "date": "2026-05-10",
+          "title": "Blood Sugar Fasting",
+          "patientId": "fam-1",
+          "patientName": "Srinivas Kilari",
+          "category": "Lab Report",
+          "doctorName": "Diagnostic Labs Inc.",
+          "details": "Fasting sugar: 128 mg/dL. HbA1c: 7.1%. Control is fair but requires mild exercise monitoring.",
+          "attachments": [
+            "Sugar_Report_May.pdf"
+          ]
+        }
+      ],
+      "abhaIdentities": [
+        {
+          "id": "abha_id_demo_1",
+          "patientId": "fam-self",
+          "abhaNumber": "91-8402-1234-5678",
+          "abhaAddress": "supriya@abha",
+          "mobile": "+91 98402 12345",
+          "linkedAt": "2026-07-04T23:00:00Z",
+          "verified": true,
+          "status": "ACTIVE"
+        }
+      ],
+      "consentRecords": [],
+      "importSessions": [],
+      "importedHealthRecords": [],
+      "supportChats": [
+        {
+          "sender": "ai",
+          "text": "Hello! I am your HealthTribe AI Copilot. Describe any symptoms, check drug interactions, or get dietary recommendations. How are you feeling today?",
+          "timestamp": "2026-07-17T05:20:23.972Z"
+        }
+      ],
+      "triageConversations": [],
+      "triageMessages": [],
+      "settings": {
+        "notificationsEnabled": true,
+        "emailAlerts": true,
+        "smsAlerts": true,
+        "caregiverMode": true,
+        "governmentBenefitsScreening": true,
+        "selectedLanguage": "English"
+      },
+      "medicineOrders": [],
+      "labBookings": []
+    },
+    "patient-1784267502928": {
+      "familyMembers": [],
+      "appointments": [],
+      "medicalTimeline": [],
+      "abhaIdentities": [],
+      "consentRecords": [],
+      "importSessions": [],
+      "importedHealthRecords": [],
+      "supportChats": [
+        {
+          "sender": "ai",
+          "text": "Hello! I am your HealthTribe AI Copilot. Describe any symptoms, check drug interactions, or get dietary recommendations. How are you feeling today?",
+          "timestamp": "2026-07-17T05:51:42.928Z"
+        }
+      ],
+      "triageConversations": [
+        {
+          "id": "conv-1784267832763",
+          "title": "New Assessment",
+          "createdAt": "2026-07-17T05:57:12.763Z",
+          "updatedAt": "2026-07-17T05:57:12.763Z"
+        },
+        {
+          "id": "conv-1784267832670",
+          "title": "New Assessment",
+          "createdAt": "2026-07-17T05:57:12.670Z",
+          "updatedAt": "2026-07-17T05:57:12.670Z"
+        }
+      ],
+      "triageMessages": [],
+      "settings": {
+        "notificationsEnabled": true,
+        "emailAlerts": true,
+        "smsAlerts": true,
+        "caregiverMode": true,
+        "governmentBenefitsScreening": true,
+        "selectedLanguage": "English"
+      },
+      "medicineOrders": [],
+      "labBookings": []
+    }
+  }
+}
