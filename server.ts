@@ -93,6 +93,7 @@ async function saveUserDbToSupabase(sanitizedEmail: string, userDb: any): Promis
 }
 
 export const dbStorage = new AsyncLocalStorage<{ req: express.Request; userDb?: any; modified?: boolean }>();
+export const userDbCache = new Map<string, any>();
 
 app.use(express.json({ limit: "50mb" }));
 
@@ -105,7 +106,24 @@ app.use(async (req, res, next) => {
     const isDemoEmail = ["supriya@gmail.com", "father@gmail.com", "mother@gmail.com", "doctor@healthtribe.com"].includes(cleanEmail);
     if (!isDemoEmail) {
       const sanitizedEmail = cleanEmail.replace(/[^a-zA-Z0-9]/g, "_");
-      userDb = await loadUserDbFromSupabase(sanitizedEmail);
+      if (userDbCache.has(sanitizedEmail)) {
+        userDb = userDbCache.get(sanitizedEmail);
+      } else {
+        userDb = await loadUserDbFromSupabase(sanitizedEmail);
+        if (!userDb) {
+          const filePath = path.join(USER_DATA_DIR, `${sanitizedEmail}.json`);
+          if (fs.existsSync(filePath)) {
+            try {
+              userDb = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+            } catch (e) {
+              // Ignore
+            }
+          }
+        }
+        if (userDb) {
+          userDbCache.set(sanitizedEmail, userDb);
+        }
+      }
     }
   }
 
@@ -124,6 +142,7 @@ app.use(async (req, res, next) => {
           const isDemoEmail = ["supriya@gmail.com", "father@gmail.com", "mother@gmail.com", "doctor@healthtribe.com"].includes(cleanEmail);
           if (!isDemoEmail) {
             const sanitizedEmail = cleanEmail.replace(/[^a-zA-Z0-9]/g, "_");
+            userDbCache.set(sanitizedEmail, currentStore.userDb);
             await saveUserDbToSupabase(sanitizedEmail, currentStore.userDb);
           }
         }
@@ -956,6 +975,11 @@ function getUserDb(req: express.Request): any {
   }
 
   const sanitizedEmail = cleanEmail.replace(/[^a-zA-Z0-9]/g, "_");
+  if (userDbCache.has(sanitizedEmail)) {
+    const dbObj = userDbCache.get(sanitizedEmail);
+    if (store) store.userDb = dbObj;
+    return dbObj;
+  }
   const filePath = path.join(USER_DATA_DIR, `${sanitizedEmail}.json`);
 
   let dbObj: any = null;
@@ -1068,6 +1092,7 @@ function getUserDb(req: express.Request): any {
   if (store) {
     store.userDb = dbObj;
   }
+  userDbCache.set(sanitizedEmail, dbObj);
   return dbObj;
 }
 
@@ -1095,6 +1120,11 @@ function saveUserDb(req: express.Request, userDb: any) {
   } catch (e) {
     console.error("Error saving user database file:", e);
   }
+
+  // Ensure background async operations (like ABHA progress steps) also sync to Supabase
+  saveUserDbToSupabase(sanitizedEmail, userDb).catch(err => {
+    console.error(`Error syncing user DB to Supabase inside saveUserDb for ${sanitizedEmail}:`, err);
+  });
 }
 
 function getProfileById(req: express.Request, id: string): any {
@@ -1528,39 +1558,62 @@ app.post("/api/v1/abha/import/:patientId", async (req, res) => {
 
   let currentStageIndex = 0;
   const store = dbStorage.getStore();
+  debugLog("[ABHA Import POST] Current store from AsyncLocalStorage:", !!store, store ? { reqUrl: store.req?.url, hasUserDb: !!store.userDb } : "null");
 
   const advanceStage = () => {
-    if (!store) return;
+    debugLog("[ABHA Import advanceStage] Timer fired. store available in closure:", !!store);
+    if (!store) {
+      debugLog("[ABHA Import advanceStage] ABORT: store is undefined!");
+      return;
+    }
     dbStorage.run(store, () => {
-      const sessionIndex = db.importSessions.findIndex((s: any) => s.id === sessionId);
-      if (sessionIndex === -1) return;
-
-      if (currentStageIndex < stages.length) {
-        const stage = stages[currentStageIndex];
-        const updatedSessions = [...db.importSessions];
-        updatedSessions[sessionIndex] = {
-          ...updatedSessions[sessionIndex],
-          status: stage.status,
-          progress: stage.progress
-        };
-        db.importSessions = updatedSessions;
-        currentStageIndex++;
-
-        if (store.userDb) {
-          saveUserDb(store.req, store.userDb);
+      debugLog("[ABHA Import advanceStage] Inside dbStorage.run callback. SessionId:", sessionId);
+      try {
+        const currentSessions = db.importSessions;
+        debugLog("[ABHA Import advanceStage] Current active sessions in DB partition:", currentSessions ? currentSessions.map((s: any) => ({ id: s.id, status: s.status })) : "undefined");
+        const sessionIndex = currentSessions ? currentSessions.findIndex((s: any) => s.id === sessionId) : -1;
+        debugLog("[ABHA Import advanceStage] Found session index:", sessionIndex);
+        
+        if (sessionIndex === -1) {
+          debugLog("[ABHA Import advanceStage] ABORT: sessionIndex is -1! Session not found in DB.");
+          return;
         }
 
-        if (stage.status === "COMPLETED") {
-          // Core business logic: execute actual records insertion & AI generation!
-          completeImportFlow(store.req, patientId, hipId, hipName).catch(console.error);
-        } else {
-          setTimeout(advanceStage, 1000);
+        if (currentStageIndex < stages.length) {
+          const stage = stages[currentStageIndex];
+          debugLog(`[ABHA Import advanceStage] Advancing to stage: ${stage.status} (${stage.progress}%)`);
+          const updatedSessions = [...db.importSessions];
+          updatedSessions[sessionIndex] = {
+            ...updatedSessions[sessionIndex],
+            status: stage.status,
+            progress: stage.progress
+          };
+          db.importSessions = updatedSessions;
+          currentStageIndex++;
+
+          if (store.userDb) {
+            debugLog("[ABHA Import advanceStage] Saving user DB changes...");
+            saveUserDb(store.req, store.userDb);
+          }
+
+          if (stage.status === "COMPLETED") {
+            debugLog("[ABHA Import advanceStage] STAGE COMPLETED. Running completeImportFlow...");
+            completeImportFlow(store.req, patientId, hipId, hipName)
+              .then(() => debugLog("[ABHA Import advanceStage] completeImportFlow finished successfully."))
+              .catch(err => debugLog("[ABHA Import advanceStage] Error in completeImportFlow:", err));
+          } else {
+            debugLog("[ABHA Import advanceStage] Scheduling next stage in 1000ms...");
+            setTimeout(advanceStage, 1000);
+          }
         }
+      } catch (err) {
+        debugLog("[ABHA Import advanceStage] Unexpected error during stage advancement:", err);
       }
     });
   };
 
   // Start background simulations
+  debugLog("[ABHA Import POST] Scheduling first advanceStage in 800ms...");
   setTimeout(advanceStage, 800);
 
   res.json({ success: true, message: "Import session initialized successfully.", sessionId });

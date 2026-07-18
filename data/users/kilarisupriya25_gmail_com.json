@@ -1,0 +1,1466 @@
+{
+  "doctors": [
+    {
+      "id": "D000",
+      "bio": "Dr. Supriya Kilari is a senior cardiologist specializing in interventional cardiology and preventive heart health. With over 14 years of experience, she is dedicated to guiding patients through complex cardiovascular journeys.",
+      "fee": 800,
+      "name": "Dr. Supriya Kilari",
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.9,
+      "hospital": "AIMS Super Speciality Hospital",
+      "education": "MD - Cardiology (AIIMS), MBBS (JIPMER)",
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "specialty": "Cardiology",
+      "experience": 14,
+      "specialtyId": "cardiologist",
+      "reviewsCount": 312,
+      "availableToday": true,
+      "availabilitySlots": [
+        "09:00 AM",
+        "10:30 AM",
+        "11:00 AM",
+        "03:00 PM",
+        "04:30 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "id": "D001",
+      "bio": "Dr. Rajesh Varma is an expert in orthopedic surgery, knee pain assessments, and musculoskeletal rehabilitation.",
+      "fee": 800,
+      "name": "Dr. Rajesh Varma",
+      "avatar": "https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.8,
+      "hospital": "Fortis Hospital",
+      "education": "MS - Orthopedics, MBBS",
+      "languages": [
+        "English",
+        "Hindi",
+        "Punjabi"
+      ],
+      "specialty": "Orthopedics",
+      "experience": 12,
+      "specialtyId": "orthopedic",
+      "reviewsCount": 245,
+      "availableToday": true,
+      "availabilitySlots": [
+        "10:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "04:30 PM"
+      ]
+    },
+    {
+      "id": "D002",
+      "bio": "Dr. Rohan Mehta specializes in managing chronic migraines, stroke rehabilitation, and spinal nerve care.",
+      "fee": 900,
+      "name": "Dr. Rohan Mehta",
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.7,
+      "hospital": "NeuroCare Institute",
+      "education": "DM - Neurology (NIMHANS), MD",
+      "languages": [
+        "English",
+        "Gujarati",
+        "Hindi"
+      ],
+      "specialty": "Neurology",
+      "experience": 10,
+      "specialtyId": "neurologist",
+      "reviewsCount": 180,
+      "availableToday": true,
+      "availabilitySlots": [
+        "09:30 AM",
+        "11:30 AM",
+        "03:30 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "D003",
+      "bio": "Dr. Priya Nair is renowned for clinical pediatrics, routine vaccinations, and developmental milestones guidance.",
+      "fee": 700,
+      "name": "Dr. Priya Nair",
+      "avatar": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.6,
+      "hospital": "ChildCare Hospital",
+      "education": "MD - Pediatrics, MBBS",
+      "languages": [
+        "English",
+        "Malayalam",
+        "Tamil"
+      ],
+      "specialty": "Pediatrics",
+      "experience": 8,
+      "specialtyId": "pediatrician",
+      "reviewsCount": 195,
+      "availableToday": true,
+      "availabilitySlots": [
+        "10:30 AM",
+        "12:00 PM",
+        "04:00 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "id": "D004",
+      "bio": "Dr. Vikram Shah is a leading orthopedic surgeon focusing on joint replacements, sports injuries, and musculoskeletal repair.",
+      "fee": 900,
+      "name": "Dr. Vikram Shah",
+      "avatar": "https://images.unsplash.com/photo-1607990283143-e81e7a2c93ab?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.9,
+      "hospital": "OrthoMax Hospital",
+      "education": "MS - Orthopedics (KEM Mumbai), MBBS",
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "specialty": "Orthopedics",
+      "experience": 15,
+      "specialtyId": "orthopedic",
+      "reviewsCount": 320,
+      "availableToday": true,
+      "availabilitySlots": [
+        "09:00 AM",
+        "11:00 AM",
+        "02:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "D005",
+      "bio": "Dr. Meera Iyer offers comprehensive endocrinology and diabetic therapies, helping patients achieve metabolic balance.",
+      "fee": 600,
+      "name": "Dr. Meera Iyer",
+      "avatar": "https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.7,
+      "hospital": "Apollo Clinic",
+      "education": "DM - Endocrinology, MD",
+      "languages": [
+        "English",
+        "Tamil",
+        "Telugu"
+      ],
+      "specialty": "Endocrinology",
+      "experience": 9,
+      "specialtyId": "endocrinology",
+      "reviewsCount": 150,
+      "availableToday": true,
+      "availabilitySlots": [
+        "09:00 AM",
+        "10:30 AM",
+        "12:30 PM",
+        "03:30 PM"
+      ]
+    },
+    {
+      "id": "D006",
+      "bio": "Dr. Amit Das provides general health checks, blood pressure reviews, diabetic consults, and primary triage.",
+      "fee": 500,
+      "name": "Dr. Amit Das",
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.5,
+      "hospital": "HealthFirst Clinic",
+      "education": "MD - General Medicine (Calcutta Medical), MBBS",
+      "languages": [
+        "English",
+        "Bengali",
+        "Hindi"
+      ],
+      "specialty": "General Physician",
+      "experience": 7,
+      "specialtyId": "gen_physician",
+      "reviewsCount": 410,
+      "availableToday": true,
+      "availabilitySlots": [
+        "08:30 AM",
+        "10:30 AM",
+        "02:30 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "D007",
+      "bio": "Dr. Neha Kapoor is dedicated to treatment of ear, nose, and throat disorders with advanced diagnostics.",
+      "fee": 650,
+      "name": "Dr. Neha Kapoor",
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.6,
+      "hospital": "ENT Care Center",
+      "education": "MS - ENT (AIIMS), MBBS",
+      "languages": [
+        "English",
+        "Hindi",
+        "Odia"
+      ],
+      "specialty": "ENT",
+      "experience": 11,
+      "specialtyId": "ent",
+      "reviewsCount": 135,
+      "availableToday": true,
+      "availabilitySlots": [
+        "10:00 AM",
+        "11:00 AM",
+        "03:00 PM",
+        "04:30 PM"
+      ]
+    },
+    {
+      "id": "D008",
+      "bio": "Dr. Arjun Patel is a specialist in digestive systems, endoscopy, and hepatic/liver wellness.",
+      "fee": 850,
+      "name": "Dr. Arjun Patel",
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.8,
+      "hospital": "DigestWell Hospital",
+      "education": "DM - Gastroenterology (SGPGI), MD",
+      "languages": [
+        "English",
+        "Gujarati",
+        "Hindi"
+      ],
+      "specialty": "Gastroenterology",
+      "experience": 13,
+      "specialtyId": "gastroenterologist",
+      "reviewsCount": 220,
+      "availableToday": true,
+      "availabilitySlots": [
+        "09:30 AM",
+        "11:30 AM",
+        "03:30 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "id": "D009",
+      "bio": "Dr. Kavita Reddy is a highly-regarded pulmonologist dedicated to respiratory care, asthma therapies, and advanced lung wellness programs.",
+      "fee": 800,
+      "name": "Dr. Kavita Reddy",
+      "avatar": "https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.8,
+      "hospital": "BreathEasy Lung Clinic",
+      "education": "MD - Pulmonology, MBBS",
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "specialty": "Pulmonology",
+      "experience": 14,
+      "specialtyId": "pulmonology",
+      "reviewsCount": 165,
+      "availableToday": true,
+      "availabilitySlots": [
+        "09:00 AM",
+        "11:00 AM",
+        "03:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "D010",
+      "bio": "Dr. Alok Sharma is a dedicated endocrinologist specializing in diabetes care, metabolic therapies, and hormonal balance treatments.",
+      "fee": 750,
+      "name": "Dr. Alok Sharma",
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.6,
+      "hospital": "Metabolism Care Center",
+      "education": "DM - Endocrinology, MD",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "specialty": "Endocrinology",
+      "experience": 11,
+      "specialtyId": "endocrinology",
+      "reviewsCount": 112,
+      "availableToday": true,
+      "availabilitySlots": [
+        "10:00 AM",
+        "12:00 PM",
+        "04:00 PM"
+      ]
+    },
+    {
+      "id": "D011",
+      "bio": "Dr. Vivek Sharma provides comprehensive lung care and respiratory consultation services.",
+      "fee": 600,
+      "name": "Dr. Vivek Sharma",
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.7,
+      "hospital": "Manipal Hospital",
+      "education": "MD - Pulmonology, MBBS",
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada"
+      ],
+      "specialty": "Pulmonology",
+      "experience": 9,
+      "specialtyId": "pulmonology",
+      "reviewsCount": 140,
+      "availableToday": true,
+      "availabilitySlots": [
+        "09:30 AM",
+        "11:30 AM",
+        "02:30 PM",
+        "04:30 PM"
+      ]
+    },
+    {
+      "id": "D012",
+      "bio": "Dr. Rajesh Khanna is a compassionate psychiatrist focused on mental health, anxiety solutions, and supportive cognitive therapies.",
+      "fee": 1000,
+      "name": "Dr. Rajesh Khanna",
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.9,
+      "hospital": "MindSpace Wellness",
+      "education": "MD - Psychiatry, DPM",
+      "languages": [
+        "English",
+        "Hindi",
+        "Punjabi"
+      ],
+      "specialty": "Psychiatry",
+      "experience": 16,
+      "specialtyId": "psychiatry",
+      "reviewsCount": 205,
+      "availableToday": true,
+      "availabilitySlots": [
+        "10:30 AM",
+        "01:00 PM",
+        "03:30 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "id": "D013",
+      "bio": "Dr. Sunita Rao provides comprehensive maternal-fetal care, reproductive health guidance, and wellness programs for women.",
+      "fee": 950,
+      "name": "Dr. Sunita Rao",
+      "avatar": "https://images.unsplash.com/photo-1594824813573-246434de83fb?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.9,
+      "hospital": "Matrika Women's Hospital",
+      "education": "MD - Gynecology, DGO",
+      "languages": [
+        "English",
+        "Telugu",
+        "Kannada"
+      ],
+      "specialty": "Gynecology",
+      "experience": 18,
+      "specialtyId": "gynecology",
+      "reviewsCount": 280,
+      "availableToday": true,
+      "availabilitySlots": [
+        "09:00 AM",
+        "11:30 AM",
+        "03:00 PM",
+        "05:30 PM"
+      ]
+    },
+    {
+      "id": "D014",
+      "bio": "Dr. Vijay Kumar is an experienced urologist offering clinical consultations, prostate screenings, and urinary tract treatments.",
+      "fee": 700,
+      "name": "Dr. Vijay Kumar",
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.5,
+      "hospital": "UroHealth Institute",
+      "education": "MCh - Urology, MS",
+      "languages": [
+        "English",
+        "Hindi",
+        "Tamil"
+      ],
+      "specialty": "Urology",
+      "experience": 12,
+      "specialtyId": "urology",
+      "reviewsCount": 98,
+      "availableToday": true,
+      "availabilitySlots": [
+        "11:00 AM",
+        "01:00 PM",
+        "04:00 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "id": "D015",
+      "bio": "Dr. Emily Fernandes is a dedicated medical oncologist guiding families through custom-targeted cancer care and therapy paths.",
+      "fee": 1200,
+      "name": "Dr. Emily Fernandes",
+      "avatar": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.8,
+      "hospital": "Hope Cancer Pavilion",
+      "education": "DM - Medical Oncology, MD",
+      "languages": [
+        "English",
+        "Konkani",
+        "Hindi"
+      ],
+      "specialty": "Oncology",
+      "experience": 15,
+      "specialtyId": "oncology",
+      "reviewsCount": 190,
+      "availableToday": true,
+      "availabilitySlots": [
+        "10:00 AM",
+        "12:30 PM",
+        "03:00 PM",
+        "05:00 PM"
+      ]
+    },
+    {
+      "id": "D016",
+      "bio": "Dr. Sandeep Mahto is an expert nephrologist specializing in hypertension, chronic kidney disease, and dialysis therapies.",
+      "fee": 800,
+      "name": "Dr. Sandeep Mahto",
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=200",
+      "rating": 4.6,
+      "hospital": "Kidney Care Labs",
+      "education": "DM - Nephrology, MD",
+      "languages": [
+        "English",
+        "Hindi",
+        "Maithili"
+      ],
+      "specialty": "Nephrology",
+      "experience": 10,
+      "specialtyId": "nephrology",
+      "reviewsCount": 115,
+      "availableToday": true,
+      "availabilitySlots": [
+        "09:00 AM",
+        "10:30 AM",
+        "02:30 PM",
+        "04:30 PM"
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1784351543604-3bya",
+      "action": "ABHA Import Started",
+      "timestamp": "2026-07-18T05:12:23.604Z",
+      "user": "fam-self",
+      "ip": "10.0.0.8",
+      "details": "Started diagnostic records import session imp_1784351543604_0r04iu from AIIMS New Delhi"
+    },
+    {
+      "id": "log-1784351543587-m258",
+      "action": "Consent Created",
+      "timestamp": "2026-07-18T05:12:23.587Z",
+      "user": "fam-self",
+      "ip": "10.0.0.8",
+      "details": "Created consent request con_1784351543582_uflmep for AIIMS New Delhi"
+    },
+    {
+      "id": "log-1784351439654-y2h0",
+      "ip": "10.0.0.8",
+      "user": "fam-self",
+      "action": "Consent Created",
+      "details": "Created consent request con_1784351439647_uwve8y for AIIMS New Delhi",
+      "timestamp": "2026-07-18T05:10:39.654Z"
+    },
+    {
+      "id": "log-1784351363005-1xpa",
+      "ip": "10.0.0.8",
+      "user": "fam-self",
+      "action": "ABHA Import Started",
+      "details": "Started diagnostic records import session imp_1784351363004_jaxdcy from AIIMS New Delhi",
+      "timestamp": "2026-07-18T05:09:23.005Z"
+    },
+    {
+      "id": "log-1784351362710-00mi",
+      "ip": "10.0.0.8",
+      "user": "fam-self",
+      "action": "Consent Created",
+      "details": "Created consent request con_1784351362704_d4drca for AIIMS New Delhi",
+      "timestamp": "2026-07-18T05:09:22.710Z"
+    },
+    {
+      "id": "log-1784351298143-xjd1",
+      "ip": "10.0.0.8",
+      "user": "fam-self",
+      "action": "ABHA Import Started",
+      "details": "Started diagnostic records import session imp_1784351298142_iu9ml4 from AIIMS New Delhi",
+      "timestamp": "2026-07-18T05:08:18.143Z"
+    },
+    {
+      "id": "log-1784351297834-wu5e",
+      "ip": "10.0.0.8",
+      "user": "fam-self",
+      "action": "Consent Created",
+      "details": "Created consent request con_1784351297833_uvrkto for AIIMS New Delhi",
+      "timestamp": "2026-07-18T05:08:17.834Z"
+    },
+    {
+      "id": "log-1784350991770-0eqc",
+      "ip": "10.0.0.8",
+      "user": "fam-self",
+      "action": "ABHA Import Started",
+      "details": "Started diagnostic records import session imp_1784350991770_679xpe from Manipal Medical Center",
+      "timestamp": "2026-07-18T05:03:11.770Z"
+    },
+    {
+      "id": "log-1784350927833-8psb",
+      "ip": "10.0.0.8",
+      "user": "fam-self",
+      "action": "ABHA Import Started",
+      "details": "Started diagnostic records import session imp_1784350927832_n1x4t6 from Apollo Greams Road Clinic",
+      "timestamp": "2026-07-18T05:02:07.833Z"
+    },
+    {
+      "id": "log-1784350924565-j1rx",
+      "ip": "10.0.0.8",
+      "user": "fam-self",
+      "action": "Consent Created",
+      "details": "Created consent request con_1784350924564_bo612u for Apollo Greams Road Clinic",
+      "timestamp": "2026-07-18T05:02:04.565Z"
+    },
+    {
+      "id": "log-1784350826288-ex44",
+      "ip": "10.0.0.8",
+      "user": "Supriya Kilari",
+      "action": "Create Timeline Event",
+      "details": "Added health record: Pha Advanced 1 Plus 1",
+      "timestamp": "2026-07-18T05:00:26.288Z"
+    },
+    {
+      "id": "log-1784350760179-ukxs",
+      "ip": "10.0.0.8",
+      "user": "fam-self",
+      "action": "ABHA Import Started",
+      "details": "Started diagnostic records import session imp_1784350760178_xqw6u5 from Manipal Medical Center",
+      "timestamp": "2026-07-18T04:59:20.179Z"
+    },
+    {
+      "id": "log-1784350756954-vnv1",
+      "ip": "10.0.0.8",
+      "user": "fam-self",
+      "action": "Consent Created",
+      "details": "Created consent request con_1784350756953_yzjcz5 for Manipal Medical Center",
+      "timestamp": "2026-07-18T04:59:16.954Z"
+    },
+    {
+      "id": "log-1784313797605-576m",
+      "ip": "10.0.0.8",
+      "user": "Supriya Kilari",
+      "action": "Cancel Appointment",
+      "details": "Cancelled appointment with Dr. Supriya Kilari",
+      "timestamp": "2026-07-17T18:43:17.605Z"
+    },
+    {
+      "id": "log-1784313763549-eaim",
+      "ip": "10.0.0.8",
+      "user": "Supriya Kilari",
+      "action": "Book Appointment",
+      "details": "Scheduled consultation with Dr. Rahul Atluri on 2026-07-10 at 10:30 AM",
+      "timestamp": "2026-07-17T18:42:43.549Z"
+    },
+    {
+      "id": "log-1784312627821-lrfk",
+      "ip": "10.0.0.8",
+      "user": "Supriya Kilari",
+      "action": "Book Appointment",
+      "details": "Scheduled consultation with Dr. Amit Das on 2026-07-10 at 10:30 AM",
+      "timestamp": "2026-07-17T18:23:47.821Z"
+    },
+    {
+      "id": "log-1784312479250-xyq6",
+      "ip": "10.0.0.8",
+      "user": "Rama Raavi",
+      "action": "Create Patient Profile",
+      "details": "Created new patient profile for Rama Raavi",
+      "timestamp": "2026-07-17T18:21:19.250Z"
+    },
+    {
+      "id": "log-init-1784312466780",
+      "ip": "127.0.0.1",
+      "user": "kilarisupriya25@gmail.com",
+      "action": "Profile Created",
+      "details": "HealthTribe persistent profile initialized for kilarisupriya25@gmail.com.",
+      "timestamp": "2026-07-17T18:21:06.780Z"
+    }
+  ],
+  "partitions": {
+    "ext-1": {
+      "settings": {
+        "smsAlerts": true,
+        "emailAlerts": true,
+        "caregiverMode": true,
+        "selectedLanguage": "English",
+        "notificationsEnabled": true,
+        "governmentBenefitsScreening": true
+      },
+      "labBookings": [],
+      "appointments": [],
+      "supportChats": [
+        {
+          "text": "Hello! I am your HealthTribe AI Copilot. Describe any symptoms, check drug interactions, or get dietary recommendations. How are you feeling today?",
+          "sender": "ai",
+          "timestamp": "2026-07-17T19:01:43.136Z"
+        }
+      ],
+      "familyMembers": [],
+      "abhaIdentities": [],
+      "consentRecords": [],
+      "importSessions": [],
+      "medicineOrders": [],
+      "triageMessages": [],
+      "medicalTimeline": [],
+      "triageConversations": [
+        {
+          "id": "conv-1784314903478",
+          "title": "New Assessment",
+          "createdAt": "2026-07-17T19:01:43.478Z",
+          "updatedAt": "2026-07-17T19:01:43.478Z"
+        },
+        {
+          "id": "conv-1784314903136",
+          "title": "New Assessment",
+          "createdAt": "2026-07-17T19:01:43.136Z",
+          "updatedAt": "2026-07-17T19:01:43.136Z"
+        }
+      ],
+      "importedHealthRecords": []
+    },
+    "fam-self": {
+      "settings": {
+        "smsAlerts": true,
+        "emailAlerts": true,
+        "caregiverMode": true,
+        "selectedLanguage": "English",
+        "notificationsEnabled": true,
+        "governmentBenefitsScreening": true
+      },
+      "labBookings": [],
+      "appointments": [
+        {
+          "id": "appt-upcoming-1",
+          "fee": 800,
+          "date": "17 Jul 2026",
+          "time": "10:30 AM",
+          "type": "In-Person",
+          "notes": "Chest Pain Follow-up",
+          "status": "Cancelled",
+          "doctorId": "D000",
+          "hospital": "AIMS Super Speciality Hospital",
+          "patientId": "fam-self",
+          "specialty": "Cardiology",
+          "doctorName": "Dr. Supriya Kilari",
+          "patientName": "Supriya Kilari"
+        },
+        {
+          "id": "appt-upcoming-2",
+          "fee": 800,
+          "date": "20 Jul 2026",
+          "time": "11:00 AM",
+          "type": "In-Person",
+          "notes": "Knee Pain Review",
+          "status": "Upcoming",
+          "doctorId": "D001",
+          "hospital": "Fortis Hospital",
+          "patientId": "fam-1",
+          "specialty": "Orthopedics",
+          "doctorName": "Dr. Rajesh Varma",
+          "patientName": "Srinivas Kilari"
+        },
+        {
+          "id": "appt-upcoming-3",
+          "fee": 600,
+          "date": "24 Jul 2026",
+          "time": "09:30 AM",
+          "type": "In-Person",
+          "notes": "Diabetes Follow-up",
+          "status": "Upcoming",
+          "doctorId": "D005",
+          "hospital": "Apollo Clinic",
+          "patientId": "fam-3",
+          "specialty": "Endocrinology",
+          "doctorName": "Dr. Meera Iyer",
+          "patientName": "Janaki Kilari"
+        },
+        {
+          "id": "appt-upcoming-4",
+          "fee": 700,
+          "date": "26 Jul 2026",
+          "time": "02:00 PM",
+          "type": "Video",
+          "notes": "COPD Review",
+          "status": "Upcoming",
+          "doctorId": "D011",
+          "hospital": "Manipal Hospital",
+          "patientId": "fam-2",
+          "specialty": "Pulmonology",
+          "doctorName": "Dr. Vivek Sharma",
+          "patientName": "Rama Rao Kilari"
+        },
+        {
+          "id": "appt-upcoming-5",
+          "fee": 700,
+          "date": "28 Jul 2026",
+          "time": "10:00 AM",
+          "type": "In-Person",
+          "notes": "Vaccination",
+          "status": "Upcoming",
+          "doctorId": "D003",
+          "hospital": "ChildCare Hospital",
+          "patientId": "fam-4",
+          "specialty": "Pediatrics",
+          "doctorName": "Dr. Priya Nair",
+          "patientName": "Ananya Kilari"
+        },
+        {
+          "id": "appt-completed-1",
+          "fee": 800,
+          "date": "12 Jul 2026",
+          "time": "11:00 AM",
+          "type": "In-Person",
+          "notes": "Routine Cardiac Check",
+          "status": "Completed",
+          "doctorId": "D000",
+          "followUp": "Continue low sodium diet and lifestyle monitoring.",
+          "hospital": "AIMS Super Speciality Hospital",
+          "diagnosis": "ECG and lipid review completed, cardiac profile normal.",
+          "patientId": "fam-self",
+          "specialty": "Cardiology",
+          "doctorName": "Dr. Supriya Kilari",
+          "patientName": "Supriya Kilari"
+        },
+        {
+          "id": "appt-completed-2",
+          "fee": 800,
+          "date": "10 Jul 2026",
+          "time": "03:30 PM",
+          "type": "In-Person",
+          "notes": "Knee Assessment",
+          "status": "Completed",
+          "doctorId": "D001",
+          "followUp": "Rest, ice application, and avoid heavy lifting for 1 week.",
+          "hospital": "Fortis Hospital",
+          "diagnosis": "Mild patellar strain diagnosed.",
+          "patientId": "fam-1",
+          "specialty": "Orthopedics",
+          "doctorName": "Dr. Rajesh Varma",
+          "patientName": "Srinivas Kilari"
+        },
+        {
+          "id": "appt-completed-3",
+          "fee": 600,
+          "date": "08 Jul 2026",
+          "time": "09:00 AM",
+          "type": "In-Person",
+          "notes": "Fasting Blood Sugar Review",
+          "status": "Completed",
+          "doctorId": "D005",
+          "followUp": "Continue Metformin 500mg twice daily with meals.",
+          "hospital": "Apollo Clinic",
+          "diagnosis": "Type 2 Diabetes, blood sugar stable.",
+          "patientId": "fam-3",
+          "specialty": "Endocrinology",
+          "doctorName": "Dr. Meera Iyer",
+          "patientName": "Janaki Kilari"
+        },
+        {
+          "id": "appt-completed-4",
+          "fee": 700,
+          "date": "05 Jul 2026",
+          "time": "04:00 PM",
+          "type": "Video",
+          "notes": "COPD Spirometry Review",
+          "status": "Completed",
+          "doctorId": "D011",
+          "followUp": "Continue daily bronchodilator inhalers, monitor oxygen level.",
+          "hospital": "Manipal Hospital",
+          "diagnosis": "Stable COPD, normal FEV1/FVC ratio.",
+          "patientId": "fam-2",
+          "specialty": "Pulmonology",
+          "doctorName": "Dr. Vivek Sharma",
+          "patientName": "Rama Rao Kilari"
+        },
+        {
+          "id": "appt-completed-5",
+          "fee": 700,
+          "date": "01 Jul 2026",
+          "time": "10:30 AM",
+          "type": "In-Person",
+          "notes": "Regular Growth Monitoring",
+          "status": "Completed",
+          "doctorId": "D003",
+          "followUp": "Maintain age-appropriate balanced nutrition and active play.",
+          "hospital": "ChildCare Hospital",
+          "diagnosis": "Normal developmental milestones achieved.",
+          "patientId": "fam-4",
+          "specialty": "Pediatrics",
+          "doctorName": "Dr. Priya Nair",
+          "patientName": "Ananya Kilari"
+        },
+        {
+          "id": "appt-cancelled-1",
+          "fee": 800,
+          "date": "02 Jul 2026",
+          "time": "10:30 AM",
+          "type": "In-Person",
+          "notes": "Rescheduling needed",
+          "status": "Cancelled",
+          "doctorId": "D000",
+          "hospital": "AIMS Super Speciality Hospital",
+          "patientId": "fam-self",
+          "specialty": "Cardiology",
+          "doctorName": "Dr. Supriya Kilari",
+          "patientName": "Supriya Kilari"
+        },
+        {
+          "id": "appt-cancelled-2",
+          "fee": 800,
+          "date": "28 Jun 2026",
+          "time": "02:00 PM",
+          "type": "In-Person",
+          "notes": "Doctor unavailable",
+          "status": "Cancelled",
+          "doctorId": "D001",
+          "hospital": "Fortis Hospital",
+          "patientId": "fam-1",
+          "specialty": "Orthopedics",
+          "doctorName": "Dr. Rajesh Varma",
+          "patientName": "Srinivas Kilari"
+        },
+        {
+          "id": "appt-1784312627820",
+          "fee": 500,
+          "date": "2026-07-10",
+          "time": "10:30 AM",
+          "type": "In-Person",
+          "notes": "Direct Booking via Specialist Channel",
+          "status": "Upcoming",
+          "doctorId": "D006",
+          "patientId": "fam-self",
+          "specialty": "General Physician",
+          "doctorName": "Dr. Amit Das",
+          "patientName": "Supriya Kilari"
+        },
+        {
+          "id": "appt-1784313763548",
+          "fee": 800,
+          "date": "2026-07-10",
+          "time": "10:30 AM",
+          "type": "In-Person",
+          "notes": "Direct Booking via Specialist Channel",
+          "status": "Upcoming",
+          "doctorId": "D000",
+          "patientId": "fam-self",
+          "specialty": "Cardiology",
+          "doctorName": "Dr. Rahul Atluri",
+          "patientName": "Supriya Kilari"
+        }
+      ],
+      "supportChats": [
+        {
+          "text": "Hello! I am your HealthTribe AI Copilot. Describe any symptoms, check drug interactions, or get dietary recommendations. How are you feeling today?",
+          "sender": "ai",
+          "timestamp": "2026-07-17T18:21:06.780Z"
+        }
+      ],
+      "familyMembers": [
+        {
+          "id": "fam-1",
+          "age": 34,
+          "name": "Srinivas Kilari",
+          "gender": "Male",
+          "height": "178 cm",
+          "linked": true,
+          "weight": "74 kg",
+          "relation": "Husband",
+          "allergies": "None",
+          "belongsTo": "fam-self",
+          "bloodGroup": "B+",
+          "medications": "None",
+          "profileCode": "TRIBE-1102",
+          "linkedStatus": "Linked",
+          "emergencyContact": "+91 98402 12345",
+          "chronicConditions": "None"
+        },
+        {
+          "id": "fam-2",
+          "age": 62,
+          "name": "Rama Rao Kilari",
+          "gender": "Male",
+          "height": "170 cm",
+          "linked": true,
+          "weight": "70 kg",
+          "relation": "Father-in-law",
+          "allergies": "None",
+          "belongsTo": "fam-self",
+          "bloodGroup": "A+",
+          "medications": "Inhaler",
+          "profileCode": "TRIBE-1202",
+          "linkedStatus": "Linked",
+          "emergencyContact": "+91 98402 12345",
+          "chronicConditions": "COPD"
+        },
+        {
+          "id": "fam-3",
+          "age": 58,
+          "name": "Janaki Kilari",
+          "gender": "Female",
+          "height": "158 cm",
+          "linked": true,
+          "weight": "62 kg",
+          "relation": "Mother-in-law",
+          "allergies": "None",
+          "belongsTo": "fam-self",
+          "bloodGroup": "O+",
+          "medications": "Metformin 500mg",
+          "profileCode": "TRIBE-1302",
+          "linkedStatus": "Linked",
+          "emergencyContact": "+91 98402 12345",
+          "chronicConditions": "Type 2 Diabetes"
+        },
+        {
+          "id": "fam-4",
+          "age": 5,
+          "name": "Ananya Kilari",
+          "gender": "Female",
+          "height": "110 cm",
+          "linked": true,
+          "weight": "18 kg",
+          "relation": "Daughter",
+          "allergies": "None",
+          "belongsTo": "fam-self",
+          "bloodGroup": "O+",
+          "medications": "None",
+          "profileCode": "TRIBE-1402",
+          "linkedStatus": "Linked",
+          "emergencyContact": "+91 98402 12345",
+          "chronicConditions": "None"
+        }
+      ],
+      "abhaIdentities": [
+        {
+          "id": "abha_id_demo_1",
+          "mobile": "+91 98402 12345",
+          "status": "ACTIVE",
+          "linkedAt": "2026-07-04T23:00:00Z",
+          "verified": true,
+          "patientId": "fam-self",
+          "abhaNumber": "91-8402-1234-5678",
+          "abhaAddress": "supriya@abha"
+        }
+      ],
+      "consentRecords": [
+        {
+          "id": "con_1784350756953_yzjcz5",
+          "hipId": "hip-manipal",
+          "hiuId": "HealthTribe-HIU",
+          "status": "GRANTED",
+          "hipName": "Manipal Medical Center",
+          "purpose": "Diagnostic Consolidation & AI Analysis",
+          "createdAt": "2026-07-18T04:59:16.953Z",
+          "dataTypes": [
+            "Prescription",
+            "DiagnosticReport",
+            "DischargeSummary"
+          ],
+          "grantedAt": "2026-07-18T04:59:16.953Z",
+          "patientId": "fam-self",
+          "abhaAddress": "supriya@abha",
+          "consentExpiry": "2026-08-17"
+        },
+        {
+          "id": "con_1784350924564_bo612u",
+          "hipId": "hip-apollo",
+          "hiuId": "HealthTribe-HIU",
+          "status": "GRANTED",
+          "hipName": "Apollo Greams Road Clinic",
+          "purpose": "Diagnostic Consolidation & AI Analysis",
+          "createdAt": "2026-07-18T05:02:04.565Z",
+          "dataTypes": [
+            "Prescription",
+            "DiagnosticReport",
+            "DischargeSummary"
+          ],
+          "grantedAt": "2026-07-18T05:02:04.565Z",
+          "patientId": "fam-self",
+          "abhaAddress": "supriya@abha",
+          "consentExpiry": "2026-08-17"
+        },
+        {
+          "id": "con_1784351297833_uvrkto",
+          "hipId": "hip-aiims",
+          "hiuId": "HealthTribe-HIU",
+          "status": "GRANTED",
+          "hipName": "AIIMS New Delhi",
+          "purpose": "Referral & diagnostics consolidation",
+          "createdAt": "2026-07-18T05:08:17.833Z",
+          "dataTypes": [
+            "Prescription",
+            "DiagnosticReport",
+            "DischargeSummary"
+          ],
+          "grantedAt": "2026-07-18T05:08:17.833Z",
+          "patientId": "fam-self",
+          "abhaAddress": "supriya@abha",
+          "consentExpiry": "2026-08-17"
+        },
+        {
+          "id": "con_1784351362704_d4drca",
+          "hipId": "hip-aiims",
+          "hiuId": "HealthTribe-HIU",
+          "status": "GRANTED",
+          "hipName": "AIIMS New Delhi",
+          "purpose": "Referral & diagnostics consolidation",
+          "createdAt": "2026-07-18T05:09:22.704Z",
+          "dataTypes": [
+            "Prescription",
+            "DiagnosticReport",
+            "DischargeSummary"
+          ],
+          "grantedAt": "2026-07-18T05:09:22.704Z",
+          "patientId": "fam-self",
+          "abhaAddress": "supriya@abha",
+          "consentExpiry": "2026-08-17"
+        },
+        {
+          "id": "con_1784351439647_uwve8y",
+          "hipId": "hip-aiims",
+          "hiuId": "HealthTribe-HIU",
+          "status": "GRANTED",
+          "hipName": "AIIMS New Delhi",
+          "purpose": "Referral & diagnostics consolidation",
+          "createdAt": "2026-07-18T05:10:39.647Z",
+          "dataTypes": [
+            "Prescription",
+            "DiagnosticReport",
+            "DischargeSummary"
+          ],
+          "grantedAt": "2026-07-18T05:10:39.647Z",
+          "patientId": "fam-self",
+          "abhaAddress": "supriya@abha",
+          "consentExpiry": "2026-08-17"
+        },
+        {
+          "id": "con_1784351543582_uflmep",
+          "patientId": "fam-self",
+          "abhaAddress": "supriya@abha",
+          "hiuId": "HealthTribe-HIU",
+          "hipId": "hip-aiims",
+          "hipName": "AIIMS New Delhi",
+          "purpose": "Referral & diagnostics consolidation",
+          "consentExpiry": "2026-08-17",
+          "status": "GRANTED",
+          "dataTypes": [
+            "Prescription",
+            "DiagnosticReport",
+            "DischargeSummary"
+          ],
+          "createdAt": "2026-07-18T05:12:23.582Z",
+          "grantedAt": "2026-07-18T05:12:23.582Z"
+        }
+      ],
+      "importSessions": [
+        {
+          "id": "imp_1784350760178_xqw6u5",
+          "hipId": "hip-manipal",
+          "status": "PENDING",
+          "hipName": "Manipal Medical Center",
+          "progress": 0,
+          "consentId": "con_1784350756953_yzjcz5",
+          "createdAt": "2026-07-18T04:59:20.178Z",
+          "patientId": "fam-self"
+        },
+        {
+          "id": "imp_1784350927832_n1x4t6",
+          "hipId": "hip-apollo",
+          "status": "PENDING",
+          "hipName": "Apollo Greams Road Clinic",
+          "progress": 0,
+          "consentId": "con_1784350924564_bo612u",
+          "createdAt": "2026-07-18T05:02:07.832Z",
+          "patientId": "fam-self"
+        },
+        {
+          "id": "imp_1784350991770_679xpe",
+          "hipId": "hip-manipal",
+          "status": "PENDING",
+          "hipName": "Manipal Medical Center",
+          "progress": 0,
+          "consentId": "con_1784350756953_yzjcz5",
+          "createdAt": "2026-07-18T05:03:11.770Z",
+          "patientId": "fam-self"
+        },
+        {
+          "id": "imp_1784351298142_iu9ml4",
+          "hipId": "hip-aiims",
+          "status": "PENDING",
+          "hipName": "AIIMS New Delhi",
+          "progress": 0,
+          "consentId": "con_1784351297833_uvrkto",
+          "createdAt": "2026-07-18T05:08:18.143Z",
+          "patientId": "fam-self"
+        },
+        {
+          "id": "imp_1784351363004_jaxdcy",
+          "hipId": "hip-aiims",
+          "status": "PENDING",
+          "hipName": "AIIMS New Delhi",
+          "progress": 0,
+          "consentId": "con_1784351362704_d4drca",
+          "createdAt": "2026-07-18T05:09:23.004Z",
+          "patientId": "fam-self"
+        },
+        {
+          "id": "imp_1784351543604_0r04iu",
+          "patientId": "fam-self",
+          "consentId": "con_1784351543582_uflmep",
+          "hipId": "hip-aiims",
+          "hipName": "AIIMS New Delhi",
+          "status": "COMPLETED",
+          "progress": 100,
+          "createdAt": "2026-07-18T05:12:23.604Z"
+        }
+      ],
+      "medicineOrders": [],
+      "triageMessages": [],
+      "medicalTimeline": [
+        {
+          "id": "rec-aiims-1784351548417-1",
+          "date": "2026-04-18",
+          "title": "Echocardiogram Diagnostic Assay",
+          "patientId": "fam-self",
+          "patientName": "Patient",
+          "category": "Lab Report",
+          "doctorName": "Dr. Sandeep Mahto",
+          "details": "LVEF 60%. Mild diastolic dysfunction observed. Left atrium borderline dilated.",
+          "hospital": "AIIMS New Delhi",
+          "specialty": "Cardiology",
+          "source": "ABHA",
+          "type": "Lab Report"
+        },
+        {
+          "id": "rec-aiims-1784351548417-2",
+          "date": "2026-04-18",
+          "title": "Clinical Consultation Summary",
+          "patientId": "fam-self",
+          "patientName": "Patient",
+          "category": "Consultation",
+          "doctorName": "Dr. Sandeep Mahto",
+          "details": "Diagnosed with Type-C Hypertension. Advised low salt Diet, morning exercise, and Ramipril 5mg.",
+          "hospital": "AIIMS New Delhi",
+          "specialty": "Cardiology",
+          "source": "ABHA",
+          "type": "Consultation"
+        },
+        {
+          "id": "timeline-1784350826287",
+          "date": "2026-07-18",
+          "title": "Pha Advanced 1 Plus 1",
+          "details": "Pha Advanced 1 Plus 1 lab report with abnormal findings",
+          "category": "Lab Report",
+          "patientId": "fam-self",
+          "riskLevel": "Moderate",
+          "doctorName": "HealthTribe AI Diagnostics",
+          "highlights": [
+            "Low Hematocrit (PCV)",
+            "Low 25-OH Vitamin D (Total)",
+            "Low Average Blood Glucose (ABG)"
+          ],
+          "attachments": [],
+          "patientName": "Supriya Kilari",
+          "reportAnalysis": {
+            "findings": [
+              {
+                "trend": "New",
+                "value": "34.8",
+                "marker": "Hematocrit (PCV)",
+                "status": "Low",
+                "severity": "Mild",
+                "whyItMatters": "Indicates possible anemia",
+                "possibleCauses": "Iron deficiency, vitamin deficiency, or chronic disease",
+                "referenceRange": "36.0-46.0 %",
+                "suggestedFollowUp": "Iron studies, vitamin B12 and folate levels"
+              },
+              {
+                "trend": "New",
+                "value": "35.9",
+                "marker": "Mean Corp.Hemo.Conc (MCHC)",
+                "status": "High",
+                "severity": "Mild",
+                "whyItMatters": "May indicate dehydration or other conditions",
+                "possibleCauses": "Dehydration, hyperglycemia, or other metabolic disorders",
+                "referenceRange": "31.5-34.5 g/dL",
+                "suggestedFollowUp": "Repeat testing, assess hydration status"
+              },
+              {
+                "trend": "New",
+                "value": "3.95",
+                "marker": "25-OH Vitamin D (Total)",
+                "status": "Low",
+                "severity": "Moderate",
+                "whyItMatters": "Essential for bone health and immune function",
+                "possibleCauses": "Limited sun exposure, inadequate diet, or malabsorption",
+                "referenceRange": "30-100 ng/mL",
+                "suggestedFollowUp": "Vitamin D supplementation, sunlight exposure, and dietary counseling"
+              },
+              {
+                "trend": "New",
+                "value": "71",
+                "marker": "Average Blood Glucose (ABG)",
+                "status": "Low",
+                "severity": "Mild",
+                "whyItMatters": "May indicate hypoglycemia or other metabolic disorders",
+                "possibleCauses": "Hypoglycemia, insulin excess, or other endocrine disorders",
+                "referenceRange": "90-120 mg/dL",
+                "suggestedFollowUp": "Repeat testing, assess glucose levels, and evaluate for hypoglycemia"
+              },
+              {
+                "trend": "New",
+                "value": "1.2",
+                "marker": "LDL/HDL ratio",
+                "status": "Normal",
+                "severity": "None",
+                "whyItMatters": "Indicates favorable cardiovascular risk profile",
+                "possibleCauses": "None",
+                "referenceRange": "1.5-3.5 Ratio",
+                "suggestedFollowUp": "Maintain a healthy lifestyle, regular check-ups"
+              }
+            ],
+            "overview": {
+              "date": "2026-06-28",
+              "confidence": "Not Provided",
+              "reportType": "Pha Advanced 1 Plus 1",
+              "overallStatus": "Needs Attention"
+            },
+            "timelineEvent": {
+              "date": "2026-06-28",
+              "details": "Pha Advanced 1 Plus 1 lab report with abnormal findings",
+              "category": "Lab Report",
+              "riskLevel": "Moderate",
+              "highlights": [
+                "Low Hematocrit (PCV)",
+                "Low 25-OH Vitamin D (Total)",
+                "Low Average Blood Glucose (ABG)"
+              ]
+            },
+            "recommendations": {
+              "dietaryAdvice": [
+                "Increase intake of vitamin D-rich foods (fatty fish, fortified dairy products)"
+              ],
+              "repeatTesting": "Repeat Vitamin D and hematocrit tests in 3-6 months to assess response to interventions.",
+              "physicianReview": "Consult an endocrinologist or primary care physician to discuss abnormal results and develop a plan for further evaluation and management.",
+              "lifestyleChanges": [
+                "Increase sun exposure",
+                "Maintain a balanced diet",
+                "Consider vitamin D supplementation"
+              ],
+              "medicationsToDiscuss": [
+                "Vitamin D supplements"
+              ],
+              "emergencyWarningSigns": [
+                "Severe fatigue",
+                "Muscle weakness",
+                "Bone pain"
+              ]
+            },
+            "clinicalInterpretation": "The patient's overall clinical picture indicates several biomarkers outside of the reference range. Hematocrit (PCV) is low at 34.8%, indicating possible anemia. Mean Corp.Hemo.Conc (MCHC) is high at 35.9 g/dL, and 25-OH Vitamin D (Total) is low at 3.95 ng/mL, suggesting Vitamin D deficiency. Average Blood Glucose (ABG) is low at 71 mg/dL. The LDL/HDL ratio is low at 1.2, which is favorable. However, the patient's Vitamin D level and hematocrit require attention. It is essential to consider these findings in the context of the patient's medical history and perform further evaluations as necessary."
+          }
+        },
+        {
+          "id": "timeline-appt-1784313763549",
+          "date": "2026-07-10",
+          "title": "Consultation with Dr. Rahul Atluri",
+          "details": "Scheduled In-Person visit. Notes: Direct Booking via Specialist Channel. Follow instructions for pre-visit checklist: bring all active medications and prior diagnostics.",
+          "category": "Consultation",
+          "patientId": "fam-self",
+          "doctorName": "Dr. Rahul Atluri",
+          "attachments": [],
+          "patientName": "Supriya Kilari"
+        },
+        {
+          "id": "timeline-appt-1784312627821",
+          "date": "2026-07-10",
+          "title": "Consultation with Dr. Amit Das",
+          "details": "Scheduled In-Person visit. Notes: Direct Booking via Specialist Channel. Follow instructions for pre-visit checklist: bring all active medications and prior diagnostics.",
+          "category": "Consultation",
+          "patientId": "fam-self",
+          "doctorName": "Dr. Amit Das",
+          "attachments": [],
+          "patientName": "Supriya Kilari"
+        },
+        {
+          "id": "timeline-1",
+          "date": "2026-06-15",
+          "title": "Annual Heart Health Checkup",
+          "details": "Sinus rhythm normal, blood pressure stable at 118/75.",
+          "category": "Consultation",
+          "patientId": "fam-self",
+          "doctorName": "Dr. Supriya Kilari",
+          "attachments": [
+            "ECG_Report_June.pdf"
+          ],
+          "patientName": "Supriya Kilari"
+        },
+        {
+          "id": "timeline-2",
+          "date": "2026-05-10",
+          "title": "Blood Sugar Fasting",
+          "details": "Fasting sugar: 128 mg/dL. HbA1c: 7.1%. Control is fair but requires mild exercise monitoring.",
+          "category": "Lab Report",
+          "patientId": "fam-1",
+          "doctorName": "Diagnostic Labs Inc.",
+          "attachments": [
+            "Sugar_Report_May.pdf"
+          ],
+          "patientName": "Srinivas Kilari"
+        }
+      ],
+      "triageConversations": [
+        {
+          "id": "conv-1784312736142",
+          "title": "New Assessment",
+          "createdAt": "2026-07-17T18:25:36.142Z",
+          "updatedAt": "2026-07-17T18:25:36.142Z"
+        }
+      ],
+      "importedHealthRecords": [
+        {
+          "id": "rec-aiims-1784351548417-1",
+          "patientId": "fam-self",
+          "hipId": "hip-aiims",
+          "hipName": "AIIMS New Delhi",
+          "recordType": "Lab Report",
+          "title": "Echocardiogram Diagnostic Assay",
+          "date": "2026-04-18",
+          "doctorName": "Dr. Sandeep Mahto",
+          "details": "LVEF 60%. Mild diastolic dysfunction observed. Left atrium borderline dilated.",
+          "careContextRef": "OPD-76700"
+        },
+        {
+          "id": "rec-aiims-1784351548417-2",
+          "patientId": "fam-self",
+          "hipId": "hip-aiims",
+          "hipName": "AIIMS New Delhi",
+          "recordType": "Consultation",
+          "title": "Clinical Consultation Summary",
+          "date": "2026-04-18",
+          "doctorName": "Dr. Sandeep Mahto",
+          "details": "Diagnosed with Type-C Hypertension. Advised low salt Diet, morning exercise, and Ramipril 5mg.",
+          "careContextRef": "OPD-73166"
+        }
+      ]
+    },
+    "patient-1784312479250": {
+      "settings": {
+        "smsAlerts": true,
+        "emailAlerts": true,
+        "caregiverMode": true,
+        "selectedLanguage": "English",
+        "notificationsEnabled": true,
+        "governmentBenefitsScreening": true
+      },
+      "labBookings": [],
+      "appointments": [],
+      "supportChats": [
+        {
+          "text": "Hello! I am your HealthTribe AI Copilot. Describe any symptoms, check drug interactions, or get dietary recommendations. How are you feeling today?",
+          "sender": "ai",
+          "timestamp": "2026-07-17T18:21:19.250Z"
+        }
+      ],
+      "familyMembers": [],
+      "abhaIdentities": [],
+      "consentRecords": [],
+      "importSessions": [],
+      "medicineOrders": [],
+      "triageMessages": [],
+      "medicalTimeline": [],
+      "triageConversations": [
+        {
+          "id": "conv-1784312747967",
+          "title": "New Assessment",
+          "createdAt": "2026-07-17T18:25:47.967Z",
+          "updatedAt": "2026-07-17T18:25:47.967Z"
+        }
+      ],
+      "importedHealthRecords": []
+    }
+  },
+  "primaryProfile": null,
+  "aiConversations": [
+    {
+      "id": "conv-1784312615677",
+      "title": "Headache Causes and Remedies",
+      "messages": [
+        {
+          "id": "msg-1784312616363",
+          "text": "headache",
+          "sender": "user",
+          "timestamp": "2026-07-17T18:23:36.363Z"
+        },
+        {
+          "id": "msg-17843126180461",
+          "text": "# **Overall Health Summary**\nTo address your concern about a headache, I would need to access your medical history and current records. Unfortunately, no specific medical history or current records are available in the provided context.\n\n# **Current Active Conditions**\n* No current active conditions are available in your records.\n\n# **Recent Laboratory Reports**\n* No recent laboratory reports are available.\n\n# **Recent Consultations & Visits**\n* No recent consultations or visits are recorded.\n\n# **Active Medications**\n* No active medications are listed.\n\n# **Pending Actions & Follow-ups**\n* Consider booking an appointment with a doctor to discuss your headache.\n* Available doctors: \n  | Doctor Name | Specialty | Availability |\n  | --- | --- | --- |\n  | Dr. Amit Das | General Physician | 08:30 AM, 10:30 AM, 02:30 PM, 05:00 PM |\n\n# **Recent Health Trackers & Metrics**\n* No recent health trackers or metrics are available.\n\n# **Areas Needing Attention**\n* Your headache symptoms need to be evaluated by a healthcare professional.\n\n# **Recommendations**\n* Book an appointment with Dr. Amit Das, a general physician, to discuss your headache and get a proper evaluation.\n* Click on the \"Book Appointment\" button to schedule a visit with Dr. Amit Das at a time that suits you.",
+          "sender": "ai",
+          "widget": "doctors",
+          "timestamp": "2026-07-17T18:23:38.046Z",
+          "widgetData": [
+            {
+              "id": "D006",
+              "bio": "Dr. Amit Das provides general health checks, blood pressure reviews, diabetic consults, and primary triage.",
+              "fee": 500,
+              "name": "Dr. Amit Das",
+              "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=200",
+              "rating": 4.5,
+              "hospital": "HealthFirst Clinic",
+              "education": "MD - General Medicine (Calcutta Medical), MBBS",
+              "languages": [
+                "English",
+                "Bengali",
+                "Hindi"
+              ],
+              "specialty": "General Physician",
+              "experience": 7,
+              "specialtyId": "gen_physician",
+              "reviewsCount": 410,
+              "availableToday": true,
+              "availabilitySlots": [
+                "08:30 AM",
+                "10:30 AM",
+                "02:30 PM",
+                "05:00 PM"
+              ]
+            }
+          ]
+        }
+      ],
+      "createdAt": "2026-07-17T18:23:35.677Z",
+      "patientId": null,
+      "updatedAt": "2026-07-17T18:23:38.046Z",
+      "sessionMode": "patient"
+    }
+  ],
+  "patientProfiles": [
+    {
+      "id": "patient-1784312479250",
+      "age": 30,
+      "name": "Rama Raavi",
+      "email": "",
+      "phone": "",
+      "gender": "Female",
+      "height": "",
+      "weight": "",
+      "relation": "Self",
+      "allergies": "None",
+      "bloodGroup": "O+",
+      "medications": "None",
+      "chronicConditions": "None",
+      "onboardingComplete": true
+    }
+  ]
+}
